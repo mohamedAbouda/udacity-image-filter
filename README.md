@@ -1,1 +1,3 @@
-http://localhost:8082/filteredimage?image_url=https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg
+# the url of my project
+
+http://udacity-image-filter2-dev2.us-west-2.elasticbeanstalk.com/filteredimage?image_url=https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png
