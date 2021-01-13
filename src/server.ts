@@ -17,7 +17,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
    const image_url_regex = /(http(s?):)([/|.|\w|\s|-])*\.(?:jpeg|jpg|gif|png|svg)/
 
 
-app.get("/filteredimage", async (req, res) => {
+app.get("/filteredimage", async (req:express.Request, res:express.Response) => {
     //
     let { image_url } = req.query;
     
